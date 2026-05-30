@@ -8,6 +8,10 @@
     "scope": "/",
     "start_url": "/",
     "icons" : [
-
+        {
+            "src" : "./icon.png",
+            "size" : "512x512",
+            "type" : "image/png"
+        }
     ]
 }
