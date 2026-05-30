@@ -8,8 +8,8 @@
     "orientation": "portrait",
     "lang": "pl-PL",
     "dir": "ltr",
-    "scope": "/",
-    "start_url": "/apka_pogodowa/",
+    "scope": "/apka_pogodowa/",
+    "start_url": ".",
     "icons" : [
         {
             "src": "./icon.png",
