@@ -12,9 +12,9 @@
     "start_url": "/apka_pogodowa/",
     "icons" : [
         {
-            "src" : "./icon.png",
-            "size" : "512x512",
-            "type" : "image/png"
+            "src": "./icon.png",
+            "size": "512x512",
+            "type": "image/png"
         }
     ]
 }
