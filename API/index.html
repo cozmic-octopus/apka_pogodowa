@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pogoda</title>
+
+ 
+    <meta name="description" content="Projekt zaliczeniowy ZTI - pogoda" />
+
+ 
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Aplikacja pogodowa</h1>
+    </header>
+
+    <main>
+       
+        <div class="location">
+             
+             <p class="city-name">
+
+             </p>
+             <div class="search">
+                <img src="./icons/icons8-search-30.png" alt="search">
+                <input type="text" placeholder="podaj nazwę miasta">
+             </div>
+             <div>
+                <p class="error-message">
+
+                    
+                </p>
+             </div>
+             <div class="weather">
+                <div class="weather_top">
+                    <p class="date"></p>
+                    <div class="temp-info">
+                        <p class="temp"></p>
+                        <div>
+                            <p class="description"></p>
+                            <p class="feels-like"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather_bottom">
+                    
+                    <div class="weather-info">
+                        <p>Prędkość wiatru</p>
+                        <p class="wind-speed"></p>
+                    </div>
+                    <div class="weather-info">
+                        <p>Ciśnienie</p>
+                        <p class="preasure"></p>
+                    </div>
+                    <div class="weather-info">
+                        <p>Wilgotność</p>
+                        <p class="humidity"></p>
+                    </div>
+                    <div class="weather-info">
+                        <p>Zachmurzenie</p>
+                        <p class="clouds"></p>
+                    </div>
+                    <div class="weather-info"></div>
+                        <p>Widoczność</p>
+                        <p class="visibility"></p>
+                    <div class="weather-info">
+                        <p>Opady</p>
+                        <p class="rain"></p>
+                    </div>
+
+                </div>
+             </div>
+        </div>
+
+
+    </main>
+
+
+    <footer>
+        <small>© Dariusz Hryciuk 2026:  My ZTI Project - Pogoda</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
